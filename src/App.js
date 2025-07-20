@@ -468,6 +468,17 @@ function App() {
               }}>
               Get In Touch 📬
             </button>
+            <a 
+              href="/resume.docx" 
+              download="Ankit_Gupta_Resume.docx"
+              className="bg-yellow-300 text-black px-8 py-4 border-3 border-black font-bold text-lg font-hand flex items-center space-x-2 hover:bg-yellow-400 hover:shadow-lg transform hover:rotate-1 transition-all duration-300"
+              style={{ 
+                borderRadius: '20px 8px 20px 8px',
+                borderWidth: '3px'
+              }}>
+              <span>Download Resume</span>
+              <span className="text-2xl">📄</span>
+            </a>
           </div>
         </div>
       </header>
